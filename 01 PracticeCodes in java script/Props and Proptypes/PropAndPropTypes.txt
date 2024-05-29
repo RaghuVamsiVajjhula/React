@@ -1,0 +1,26 @@
+Basically props and its types are used to decalre some values.
+
+Like asssume a situation we have a title given in the HTML code.
+So now we replace it with some prop like titleProp so now the 
+titleProp as a title value passes into the function.
+
+ <a className="navbar-brand" href="/">{props.title}</a>
+
+look at the navbar.png where we used the props now we declare the value of 
+props.
+
+The app.png is the place where the props are passes inside.
+
+
+So basically we can change the value of the prop or uses the 
+value present inside the prop in order to make some changes to our page.
+so that we dont need to edit our code .
+
+Proptypes: 
+Here the value which we pass into the prop as a type can also be set into
+some specific type like here we can set as a string type.
+
+we can see that in proptypes.png
+
+Also the props values which are needed to be export by default can also 
+be set as seen in the image.
